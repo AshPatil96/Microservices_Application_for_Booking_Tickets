@@ -1,0 +1,1 @@
+az aks create --resource-group MyBookingApplication --name myAKSCluster --node-count 3 --enable-addons monitoring --generate-ssh-keys

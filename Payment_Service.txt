@@ -1,0 +1,4 @@
+FROM openjdk:11-jre-slim
+VOLUME /tmp
+COPY target/payment-service.jar payment-service.jar
+ENTRYPOINT ["java", "-jar", "/payment-service.jar"]

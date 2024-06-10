@@ -1,0 +1,4 @@
+kubectl apply -f kubernetes/user-service-deployment.yaml
+kubectl apply -f kubernetes/booking-service-deployment.yaml
+kubectl apply -f kubernetes/payment-service-deployment.yaml
+kubectl apply -f kubernetes/notification-service-deployment.yaml
